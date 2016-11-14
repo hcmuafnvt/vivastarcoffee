@@ -1,0 +1,25 @@
+{
+  "name": "vivastarcoffee",
+  "version": "1.0.0",
+  "description": "Viva Star Coffee",
+  "main": "keystone.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcmuafnvt/vivastarcoffee.git"
+  },
+  "author": "Toan NGUYEN - itlab.nguyenvantoan@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hcmuafnvt/vivastarcoffee/issues"
+  },
+  "homepage": "https://github.com/hcmuafnvt/vivastarcoffee#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "load-gulp-tasks": "^0.1.0"
+  }
+}
