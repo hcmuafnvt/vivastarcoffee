@@ -1,0 +1,19 @@
+{
+  "name": "vivastarcoffee",
+  "version": "0.0.0",
+  "homepage": "https://github.com/hcmuafnvt/vivastarcoffee",
+  "authors": [
+    "Toan NGUYEN <itlab.nguyenvantoan@gmail.com>"
+  ],  
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~3.1.1"
+  }
+}

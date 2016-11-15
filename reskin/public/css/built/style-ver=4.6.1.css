@@ -593,6 +593,10 @@ Header
 		font-size: 32px;
 		line-height: 1.2;
 	}
+	.site-title .vivastar-logo {
+		width: 70px;
+	}
+
 	.site-title a,
 	.site-title a:hover {
 		color: #fff;
@@ -607,7 +611,7 @@ Header
 		width: 100%;
 		z-index: 1000;
 		background-color: transparent;
-		padding: 20px 0;
+		padding: 10px 0;
 		-webkit-transition: all 0.3s ease-out;
 		   -moz-transition: all 0.3s ease-out;
 		    -ms-transition: all 0.3s ease-out;
@@ -634,7 +638,7 @@ Header
 	}
 	.site-description {
 		font-size: 16px;
-		margin: 15px 0 0;
+		margin: 5px 0 0 -24px;
 		line-height: 1.6;
 		color: #efefef;
 	}
@@ -674,8 +678,16 @@ Header
 		background-color: rgba(0,0,0,0.9);
 		padding: 5px;
 	}
+	.site-header.float-header .site-description {
+		display: none !important;
+	}
+
+	.site-header.float-header .vivastar-logo {
+		width: 50px;
+	}
+
 	.site-header.float-header #mainnav {
-		padding: 0;
+		padding-top: 10px;
 	}
 
 	.site-header.float-header #mainnav > ul > li > a {
@@ -690,6 +702,7 @@ Header
 	#mainnav {
 		display: block;
 		float: right;
+		padding-top: 10px;
 		-webkit-transition: all 0.3s linear;
 		   -moz-transition: all 0.3s linear;
 		    -ms-transition: all 0.3s linear;
@@ -3039,6 +3052,14 @@ Panels
 		}
 	}
 	@media only screen and (max-width: 1024px) {
+		.site-description {
+			display: none;
+		}
+		
+		.vivastar-logo {
+			width: 50px !important;
+		}
+
 		.slides-container .slide-item,
 		.panel-row-style {
 			background-attachment: scroll;
@@ -3061,6 +3082,7 @@ Panels
 		}
 		.btn-menu {
 			display: block;
+			padding-top: 10px;
 		}
 		.site-header {
 			position: static;
@@ -3161,6 +3183,7 @@ Panels
 		.btn-menu {
 			float: none;
 			margin: 15px auto 0;
+			padding-top: 0px;
 		}
 		.header-wrap {
 			text-align: center;
@@ -3171,6 +3194,10 @@ Panels
 		.site-header.float-header {
 			padding-top: 20px;
 			padding-bottom: 20px;
+		}
+
+		.site-header.float-header .site-description {
+			display: none !important;
 		}
 
         .text-slider-section {
