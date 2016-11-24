@@ -8,4 +8,4 @@ require('load-gulp-tasks')(gulp, {
 gulp.task('copy', ['copyfiles']);
 
 // default
-gulp.task('default', ['minifycss']);
+gulp.task('default', ['less', 'minifycss']);
