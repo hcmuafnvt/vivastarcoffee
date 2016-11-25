@@ -23,5 +23,8 @@
     "gulp-minify-css": "^1.2.4",
     "gulp-sourcemaps": "^1.9.1",
     "load-gulp-tasks": "^0.1.0"
+  },
+  "dependencies": {
+    "aos": "^2.1.1"
   }
 }

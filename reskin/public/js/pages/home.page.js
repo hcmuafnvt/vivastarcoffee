@@ -10,4 +10,9 @@
     $(function() {
         loadCarouselForProducts();
     });
+
+    $(function(){
+      AOS.init();
+   });
+
 })();

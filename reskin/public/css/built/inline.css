@@ -98,11 +98,19 @@ body {
 }
 
 .footer-widgets {
-    background-color: #252525
+    background-color: #252525;
+    position: fixed;
+    width: 100%;
+    bottom: 65px;
+    z-index: -1;
 }
 
 .site-footer {
-    background-color: #1c1c1c
+    background-color: #1c1c1c;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    z-index: -1;
 }
 
 .site-footer,
@@ -116,6 +124,9 @@ body {
 
 .page-wrap {
     padding-top: 83px;
+    position: relative;
+    background-color: #ffffff;
+    margin-bottom: 482px;
 }
 
 .page-wrap {
@@ -128,7 +139,7 @@ body {
     margin: 0 !important;
 }
 
-/* Layout 8 */		
+/* Layout 8 */
 #pg-8-0,
 #pg-8-1,
 #pg-8-2,
@@ -236,14 +247,14 @@ body {
     #pgc-8-9-0,
     #pl-8 .panel-grid .panel-grid-cell-mobile-last {
         margin-bottom: 0px
-    }			
+    }
     #pl-8 .panel-grid .panel-grid-cell-empty {
         display: none
     }
 }
 
 /* Layout w56f52953c3d68 */
-		
+
 #pg-w56f52953c3d68-0,
 #pl-w56f52953c3d68 .panel-grid-cell .so-panel,
 #pl-w56f52953c3d68 .panel-grid-cell .so-panel:last-child {
@@ -284,7 +295,7 @@ body {
     #pgc-w56f52953c3d68-1-0,
     #pl-w56f52953c3d68 .panel-grid .panel-grid-cell-mobile-last {
         margin-bottom: 0px
-    }			
+    }
     #pl-w56f52953c3d68 .panel-grid .panel-grid-cell-empty {
         display: none
     }

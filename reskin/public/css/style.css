@@ -13,3 +13,7 @@
   max-height: 100%;
   margin: 0px auto;
 }
+.header-slider {
+  z-index: 1;
+  background: #ffffff;
+}
