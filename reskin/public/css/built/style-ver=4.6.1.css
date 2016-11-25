@@ -644,7 +644,7 @@ Header
 	}
 	.site-description:empty {
 		margin: 0;
-	}	
+	}
 	.site-header.fixed {
 		position: fixed;
 	}
@@ -701,7 +701,7 @@ Header
 	/* navigation */
 	#mainnav {
 		display: block;
-		float: right;
+		/*float: right;*/
 		padding-top: 10px;
 		-webkit-transition: all 0.3s linear;
 		   -moz-transition: all 0.3s linear;
@@ -3055,7 +3055,7 @@ Panels
 		.site-description {
 			display: none;
 		}
-		
+
 		.vivastar-logo {
 			width: 50px !important;
 		}

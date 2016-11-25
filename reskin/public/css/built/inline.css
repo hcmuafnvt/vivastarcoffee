@@ -99,18 +99,10 @@ body {
 
 .footer-widgets {
     background-color: #252525;
-    position: fixed;
-    width: 100%;
-    bottom: 65px;
-    z-index: -1;
 }
 
 .site-footer {
     background-color: #1c1c1c;
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
-    z-index: -1;
 }
 
 .site-footer,
@@ -124,9 +116,6 @@ body {
 
 .page-wrap {
     padding-top: 83px;
-    position: relative;
-    background-color: #ffffff;
-    margin-bottom: 482px;
 }
 
 .page-wrap {
@@ -299,4 +288,54 @@ body {
     #pl-w56f52953c3d68 .panel-grid .panel-grid-cell-empty {
         display: none
     }
+}
+
+#mainnav {
+   padding-left: 25%;
+}
+
+#mainnav li {
+   opacity: 0;
+}
+
+.mainnav.active li{
+   opacity: 1 !important;
+}
+
+.nav-menu {
+   float: right;
+}
+
+.nav-menu i{
+   color: #ffffff;
+}
+
+/*Search bar*/
+.search-bar {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 100% !important;
+   margin-top: 7px;
+   border-radius: 10px !important;
+   opacity: 0;
+   transition: opacity 30s ease-in-out, width 30s linear;
+}
+
+.search button{
+   background: transparent;
+   border: none;
+   float: right;
+   margin-right: 20px;
+   padding: 0;
+}
+
+.search button:focus{
+   outline: 0;
+}
+
+.search-bar.active {
+   opacity: 1 !important;
+   width: 89%;
 }
