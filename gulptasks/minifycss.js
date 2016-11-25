@@ -5,7 +5,7 @@ var minifyCss = require('gulp-minify-css'),
 
 module.exports = function(gulp) {    
     gulp.task('minifycss', function() {
-        gulp.src(['./reskin/public/css/built/*.css', './reskin/public/css/style.css'])
+        gulp.src(['./reskin/public/css/built/*.css', './reskin/public/css/libs/*.css', './reskin/public/css/style.css'])
             .pipe(sourcemaps.init())
             .pipe(minifyCss())
             .pipe(concat('style.min.css'))
