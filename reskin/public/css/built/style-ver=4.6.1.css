@@ -724,7 +724,8 @@ Header
 	#mainnav ul li a {
 		position: relative;
 		display: block;
-		font-size: 14px;
+		font-size: 11px;
+		text-transform: uppercase;
 		font-family: "Raleway", sans-serif;
 		color: #fff;
 		font-weight: 500;

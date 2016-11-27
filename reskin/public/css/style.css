@@ -17,3 +17,9 @@
   z-index: 1;
   background: #ffffff;
 }
+.nav-menu .fa {
+  font-size: 1.5em !important;
+}
+.search .fa-search {
+  font-size: 1.5em !important;
+}
