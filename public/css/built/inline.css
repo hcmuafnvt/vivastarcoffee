@@ -294,6 +294,12 @@ body {
    padding-left: 33%;
 }
 
+@media (max-width:1199px) {
+    #mainnav {
+        padding-left: 16%;
+    }    
+}
+
 #mainnav li {
    opacity: 0;
 }
